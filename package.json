@@ -1,0 +1,48 @@
+{
+  "name": "suplot",
+  "version": "0.0.1",
+  "description": "A 2D plot library base on WebGPU.",
+  "main": "index.js",
+  "scripts": {
+    "types": "node scripts.js --gen-types",
+    "build": "node scripts.js --build-all",
+    "build-package": "node scripts.js --build-package",
+    "build-web": "node scripts.js --build-web",
+    "dev": "node scripts.js --dev",
+    "sample": "node ./example/index.js",
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msests/suplot.git"
+  },
+  "keywords": [
+    "plot",
+    "draw",
+    "webgpu"
+  ],
+  "type": "module",
+  "author": "jeff",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^5.0.0",
+    "open": "^10.1.0",
+    "restify": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=20.14.0"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.52.3",
+    "@types/jest": "^29.5.14",
+    "@types/restify": "^8.5.12",
+    "@webgpu/types": "^0.1.58",
+    "jest": "^29.7.0",
+    "less": "^4.2.2",
+    "less-loader": "^12.2.0",
+    "ts-jest": "^29.3.1",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}

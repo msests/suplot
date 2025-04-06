@@ -1,0 +1,7 @@
+node_modules
+types
+dist
+coverage
+
+tsdoc-metadata.json
+package-lock.json

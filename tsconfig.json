@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "declaration": true,
+    "declarationDir": "types",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "stripInternal": true
+  },
+  "include": ["./package/**/*", "./public/Protocol.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/__tests__/**.*",
+    "types",
+    "docs",
+    "examples"
+  ]
+}

@@ -1,0 +1,4 @@
+帮我使用tsdoc规范改写该文件，但有如下规则：
+1. @private替换成@internal
+2. 去掉所有@brief
+3. @param不要包含类型信息
